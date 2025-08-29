@@ -1,0 +1,173 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #0a2540;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0a2540;
+  font-weight: 500;
+}
+
+.auth .btn {
+  margin-left: 10px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: 1px solid #00c853;
+  cursor: pointer;
+}
+
+.login {
+  background: #fff;
+  color: #00c853;
+}
+
+.signup {
+  background: #00c853;
+  color: #fff;
+}
+
+/* Main */
+main {
+  margin-top: 80px;
+}
+
+main h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+main h1 span {
+  color: #00c853;
+}
+
+main p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.input-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-box input {
+  width: 320px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.input-box button {
+  background: #00c853;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.input-box button:hover {
+  background: #009624;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #777;
+}
+footer {
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-left h2 {
+  color: #1877f2;
+  margin-bottom: 10px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-column h3 {
+  color: #2bb673; 
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
+.footer-bottom a {
+  text-decoration: none;
+  color: #1877f2;
+}
